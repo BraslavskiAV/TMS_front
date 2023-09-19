@@ -128,7 +128,10 @@
     margin: 0 auto;
 }
 .case__box-big{
-    padding: 85px 10px 80px 10px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: #000;
     font-family: Raleway;
@@ -170,10 +173,10 @@
     margin: 0 auto;
 }
 
-.container-pricing__head{
+.container-head{
     display: flex;
     width: 1170px;
-    height: 150px;
+    height: 180px;
     flex-direction: column;
     justify-content: center;
     color: #000;
@@ -186,13 +189,13 @@
     text-transform: uppercase;
 }
 
-.pricing-line{
+.container-line{
     width: 200px;
     border: 1px solid #EC7979;
     margin: 0 auto;
 }
 
-.container-pricing__subtitle{
+.container-subtitle{
     color: #86878B;
     padding: 40px;
     text-align: center;
@@ -206,15 +209,23 @@
 .container-box{
     width: 1170px;
     height: 550px;
+    display: flex;
+    justify-content: space-around;
 }
 .container-card{
     height: 515px;
     width: 370px;
 }
+.container-card:hover{
+    position: relative;
+    bottom: 20px;
+}
 .container-box__head{
     display: flex;
     width: 370px;
     height: 60px;
+    padding-left: 2px;
+    margin-bottom:2px;
     flex-direction: column;
     justify-content: center;
     background: #333;
@@ -231,6 +242,7 @@
     display: flex;
     width: 370px;
     height: 100px;
+    padding-left: 2px;
     flex-direction: column;
     justify-content: center;
     background: #333;
@@ -257,4 +269,21 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.options__gb{
+    width: 370px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F5F5F5;
+    background: #FFF;
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
 }
