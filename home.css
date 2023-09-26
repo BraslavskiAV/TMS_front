@@ -136,8 +136,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 16px;
-
+    border-bottom: 1px solid #BDBDBD;;
+    height: 45px;
 }
 
 .account-line {
