@@ -297,16 +297,15 @@
             <div class="container__line"></div>
             <div class="container__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
         <div class="container-input">
-            <form>
-                <input name="text" placeholder="Name" class="contact-account-input" >
-                <input name="text" placeholder="Email" class="contact-account-input">
-                <input name="password" placeholder="Password" class="contact-account-input">
-            </form>    
-            <form>
-                <textarea rows="10" cols="45" name="text" class="input-message">Message
-                </textarea>
-            </form>
-            <form>
+            <form class="conainer-input-form">
+                <div class="input-left">
+                    <input name="text" placeholder="Name" class="contact-account-input" >
+                    <input name="text" placeholder="Email" class="contact-account-input">
+                    <input name="password" placeholder="Password" class="contact-account-input">
+                </div>
+                <div class="input-right">
+                    <textarea rows="10" cols="45" name="text" class="input-message">Message</textarea>
+                </div>
                 <button type="button" class="contact-button">Send Message</button>
             </form>
         </div>

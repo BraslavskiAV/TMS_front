@@ -48,4 +48,14 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-transform: capitalize;
+position: absolute;
+left: 400px;
+top: 300px;
+}
+.conainer-input-form{
+    display: flex;
+    position: relative;
+}
+.input-right{
+    margin-left: 20px;
 }
