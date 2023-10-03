@@ -35,3 +35,21 @@
     flex-shrink: 0;
     text-decoration: none;
 }
+
+@media (max-width:1230px) {
+    .container-header{
+        width: 1024px;
+        justify-content: space-between;
+    }
+    .container-header-logo{
+        width: 300px;
+    }
+    @media (max-width:1070px){
+        .container-header{
+            width: 800px;
+        }
+        .container-header-logo{
+            width: 120px;
+        }
+    }
+}

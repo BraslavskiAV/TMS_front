@@ -50,3 +50,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width:1230px) {
+    .container-social{
+        width: 1024px;
+    }
+    .social-text__media{
+        font-size: 18px;
+    }
+    .social-text__subtitle {
+        font-size: 14px;
+    }
+}

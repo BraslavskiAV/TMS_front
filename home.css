@@ -1,13 +1,22 @@
 .main-home {
     background-image: url(./img/image\ 2.png);
-    width: 1510px;
+    
+    width: 100%;
     height: 1025px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
-
-.container-home {
+.opacity{
     background-color: rgba(0, 0, 0, 0.5);
-    width: 1510px;
+    width: 100%;
+    height: 1025px;
+}
+.container-home {
+    
+    width: 100%;
     height: 1025px;
     display: flex;
     flex-direction: column;
@@ -32,7 +41,6 @@
 }
 
 .home-text__title {
-    width: ;
     color: #FFF;
     font-family: Raleway;
     font-size: 48px;
@@ -85,11 +93,11 @@
 }
 
 .form-container {
-    width: 370px;
-    height: 340px;
+    width: 470px;
+    height: 455px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .home-form__title {
@@ -121,10 +129,12 @@
 }
 
 .home-account {
-    height: 180px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 370px;
+    margin-left: 55px;
 }
 
 .home-account-input {
@@ -136,13 +146,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border-bottom: 1px solid #BDBDBD;;
-    height: 45px;
-}
-
-.account-line {
-    width: 370px;
     border-bottom: 1px solid #BDBDBD;
+    height: 45px;
 }
 
 .form-button {
@@ -167,5 +172,67 @@
     line-height: normal;
     border-radius: 0px 0px 10px 10px;
     background: #EC7979;
-    border-color: #EC7979;
+    border: none;
+}
+
+@media (max-width:1230px) {
+    .container-home{
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .container-home-items{
+        width: 1024px;
+    }
+    .home-text__title {
+        font-size: 36px;
+        width: 457px;
+    }
+    .home-text__subtitle {
+        width: 183px;
+        font-size: 14px;
+    }
+    .main-button__download {
+        width: 183px;
+    }
+    .home-form {
+        width: 400px;
+    }
+    .form-container{
+        width: 400px;
+    }
+    .home-form__title{
+        font-size: 18px;
+        width: 266px;
+    }
+    .home-form__free{
+        font-size: 18px;
+    }
+    .home-account{
+        width: 266px;
+    }
+    .home-account-input{
+        width: 266px;
+    }
+    .form-button {
+        width: 400px;
+    }
+    .form-button-reset{
+        width: 400px;
+    }
+    @media (max-width:1070px){
+        .container-home{
+            width: 800px;
+        }
+        .container-home-items{
+            width: 800px;
+        }
+        .home-text__title {
+            font-size: 28px;
+            width: 350px;
+        }
+        .home-text{
+            width: 350px;
+            height: 450px;
+        }
+    } 
 }

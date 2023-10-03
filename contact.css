@@ -1,4 +1,4 @@
-.contact-account-input{
+.contact-account-input {
     border: none;
     width: 575px;
     color: #BDBDBD;
@@ -7,19 +7,23 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border-bottom: 1px solid #BDBDBD;;
+    border-bottom: 1px solid #BDBDBD;
+    ;
     height: 45px;
     display: flex;
     margin-bottom: 50px;
 }
-.container{
+
+.container {
     width: 1170px;
     height: 720px;
 }
-.container-input{
+
+.container-input {
     display: flex;
 }
-.input-message{
+
+.input-message {
     width: 570px;
     height: 240px;
     border: none;
@@ -29,33 +33,55 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border-bottom: 1px solid #BDBDBD;;
+    border-bottom: 1px solid #BDBDBD;
+    ;
 }
-.contact-button{
+
+.contact-button {
     display: flex;
-width: 370px;
-height: 58px;
-border: none;
-align-items: center;
-justify-content: center;
-flex-shrink: 0;
-color: #FFF;
-background: #EC7979;
-text-align: center;
-font-family: Open Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: capitalize;
-position: absolute;
-left: 400px;
-top: 300px;
+    width: 370px;
+    height: 58px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    background: #EC7979;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    left: 400px;
+    top: 300px;
 }
-.conainer-input-form{
+
+.conainer-input-form {
     display: flex;
     position: relative;
 }
-.input-right{
+
+.input-right {
     margin-left: 20px;
+}
+
+@media (max-width:1230px){
+    .contact-account-input {
+        width: 485px;
+        font-size: 14px;
+    }
+    .container {
+        width: 1024px;
+    }
+    .input-message {
+        width: 485px;
+        height: 240px;
+    }
+    .contact-button {
+        width: 318px;
+        left: 350px;
+    }
 }
