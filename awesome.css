@@ -45,16 +45,47 @@
     line-height: normal;
 }
 
-@media (max-width:1230px){
+@media (max-width:1230px) {
     .case__box {
         width: 318px;
         font-size: 18px;
     }
+
     .logo {
         width: 147px;
         height: 147px;
     }
+
     .logo__text {
         font-size: 14px;
+    }
+}
+
+@media (max-width:1070px) {
+    .case__box {
+        width: 240px;
+    }
+
+    .logo__title {
+        font-size: 18px;
+    }
+
+    .main-awesome {
+        height: 650px;
+    }
+}
+
+@media (max-width:820px) {
+    .case {
+        flex-direction: column;
+    }
+
+    .case__box {
+        margin: 0 auto;
+        width: 320px;
+    }
+
+    .main-awesome {
+        height: 1200px;
     }
 }
